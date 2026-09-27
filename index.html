@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VYKRAVO MOTO | Motorcycle Spare Parts</title>
+<meta name="description" content="VYKRAVO MOTO supplies motorcycle spare parts, wheels, brakes, plastics, electrical parts and accessories for many motorcycle models.">
+<meta name="theme-color" content="#0b0b0b">
+<style>
+:root{--bg:#090909;--card:#141414;--text:#f5f5f5;--muted:#aaa;--accent:#e11d2e;--line:#292929}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:10;background:rgba(9,9,9,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{max-width:1150px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:22px;font-weight:900;letter-spacing:2px}.logo span{color:var(--accent)}
+.links{display:flex;gap:22px;font-size:14px;color:#ddd}.links a:hover{color:#fff}
+.hero{max-width:1150px;margin:auto;padding:95px 22px 80px;display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+.badge{display:inline-block;border:1px solid #3a3a3a;border-radius:999px;padding:7px 13px;color:#ccc;font-size:12px;text-transform:uppercase;letter-spacing:1px}
+h1{font-size:clamp(44px,7vw,78px);line-height:.98;margin:20px 0 18px;letter-spacing:-3px}h1 span{color:var(--accent)}
+.hero p{font-size:18px;color:var(--muted);max-width:620px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 19px;border-radius:9px;font-weight:800;border:1px solid var(--line);display:inline-block}.primary{background:var(--accent);border-color:var(--accent)}.secondary{background:#151515}
+.hero-card{min-height:390px;border:1px solid var(--line);border-radius:20px;background:radial-gradient(circle at 70% 25%,#3a1015 0,#171010 30%,#111 65%);display:flex;align-items:center;justify-content:center;text-align:center;padding:35px}.hero-card .wheel{font-size:150px;filter:grayscale(1);opacity:.8}
+section{max-width:1150px;margin:auto;padding:75px 22px}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:30px}.section-head h2{font-size:34px;margin:0}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);padding:25px;border-radius:16px}.icon{font-size:30px}.card h3{margin:14px 0 8px}.card p{color:var(--muted);margin:0}
+.cta{background:#111;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.cta-inner{max-width:1150px;margin:auto;padding:65px 22px;display:flex;justify-content:space-between;gap:30px;align-items:center}.cta h2{font-size:38px;margin:0 0 8px}.cta p{color:var(--muted);margin:0}
+.steps{counter-reset:s}.step{position:relative;padding-left:58px}.step:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--accent);font-weight:900}
+footer{border-top:1px solid var(--line);padding:30px 22px;color:#888;font-size:13px}.foot{max-width:1150px;margin:auto;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:65px}.hero-card{min-height:250px}.grid{grid-template-columns:1fr}.links{display:none}.cta-inner,.foot{flex-direction:column;align-items:flex-start}}
+
+.payments{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}.pay{background:#181818;border:1px solid #303030;border-radius:12px;padding:16px;text-align:center;font-weight:800}.pay small{display:block;color:#999;font-weight:500;margin-top:5px}
+.ai{position:fixed;right:18px;bottom:18px;z-index:20;width:min(360px,calc(100vw - 36px));background:#121212;border:1px solid #333;border-radius:16px;box-shadow:0 20px 60px #0008;overflow:hidden}.aihead{padding:13px 15px;background:#1b1b1b;font-weight:900}.aibody{padding:14px;max-height:250px;overflow:auto;font-size:13px}.msg{margin:8px 0;padding:9px 11px;border-radius:10px;background:#202020}.msg.bot{border-left:3px solid var(--accent)}.airow{display:flex;border-top:1px solid #333}.airow input{flex:1;background:#101010;color:#fff;border:0;padding:12px}.airow button{background:var(--accent);color:#fff;border:0;padding:0 14px;font-weight:900}
+@media(max-width:800px){.payments{grid-template-columns:repeat(2,1fr)}.ai{bottom:10px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin"><a class="logo" href="#">VYKRAVO <span>MOTO</span></a><div class="links"><a href="#parts">Parts</a><a href="#how">How it works</a><a href="#about">About</a><a href="#payment">Payment</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+<div>
+<div class="badge">Motorcycle spare parts • New & used</div>
+<h1>Parts that keep your <span>ride moving.</span></h1>
+<p>VYKRAVO MOTO supplies motorcycle spare parts and accessories for different makes and models. Tell us what you need and we'll help you find the right part.</p>
+<div class="buttons"><a class="btn primary" href="#contact">Request a Part</a><a class="btn secondary" href="#parts">Browse Categories</a></div>
+</div>
+<div class="hero-card"><div><div class="wheel">⚙</div><h2>VYKRAVO MOTO</h2><p>Motorcycle Parts & Accessories</p></div></div>
+</header>
+
+<section id="parts">
+<div class="section-head"><div><h2>What we supply</h2><p>Send your bike model, year and the part you need.</p></div></div>
+<div class="grid">
+<div class="card"><div class="icon">⚙️</div><h3>Engine & Mechanical</h3><p>Engine components, controls, bearings, levers and other mechanical parts.</p></div>
+<div class="card"><div class="icon">🛞</div><h3>Wheels & Brakes</h3><p>Wheels, brake discs, calipers, pads and related components.</p></div>
+<div class="card"><div class="icon">💡</div><h3>Electrical</h3><p>Indicators, lighting, switches, clusters and electrical accessories.</p></div>
+<div class="card"><div class="icon">🏍️</div><h3>Body & Plastics</h3><p>Fairings, panels, fenders, tail sections, seats and trim.</p></div>
+<div class="card"><div class="icon">🔧</div><h3>Exhaust & Intake</h3><p>Exhaust parts, intake components and related accessories.</p></div>
+<div class="card"><div class="icon">➕</div><h3>Other Parts</h3><p>Can't see it here? Contact us with the exact motorcycle and part number.</p></div>
+</div>
+</section>
+
+<div class="cta"><div class="cta-inner"><div><h2>Looking for a specific part?</h2><p>Send the motorcycle make, model, year and a photo if possible.</p></div><a class="btn primary" href="#contact">Contact VYKRAVO MOTO</a></div></div>
+
+<section id="how">
+<div class="section-head"><div><h2>How to order</h2><p>Simple, direct and customer-focused.</p></div></div>
+<div class="grid">
+<div class="card step"><h3>Tell us your bike</h3><p>Make, model and year are enough to start. A VIN or part number helps when available.</p></div>
+<div class="card step"><h3>Confirm the part</h3><p>We'll confirm availability, condition and compatibility before you purchase.</p></div>
+<div class="card step"><h3>Arrange payment & delivery</h3><p>We agree on the total and delivery arrangements before the order is completed.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="section-head"><div><h2>About VYKRAVO MOTO</h2><p>A dedicated motorcycle-parts shop.</p></div></div>
+<div class="card"><p>VYKRAVO MOTO is built for riders, mechanics and motorcycle owners looking for spare parts without the hassle. We focus on clear product information, compatibility and helping customers find the part they actually need.</p></div>
+</section>
+
+
+<section id="payment">
+<div class="section-head"><div><h2>Secure order payment options</h2><p>Choose the payment method agreed for your order.</p></div></div>
+<div class="card">
+<p>VYKRAVO MOTO accepts the following payment methods:</p>
+<div class="payments">
+<div class="pay">Zelle<small>Direct payment</small></div>
+<div class="pay">Cash App<small>Direct payment</small></div>
+<div class="pay">Apple Pay<small>Available where supported</small></div>
+<div class="pay">Bank Transfer<small>Bank-to-bank</small></div>
+</div>
+<p style="color:#aaa;margin-top:20px"><strong>Order protection policy:</strong> Payment is received by the VYKRAVO MOTO administrator. If an order cannot be delivered according to the agreed order terms, the administrator can initiate a refund to the customer using an available refund method. This is a store policy, not a purchase-protection program provided by Zelle, Cash App or Apple.</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-head"><div><h2>Contact us</h2><p>Contact VYKRAVO MOTO about availability, compatibility, shipping and payment.</p></div></div>
+<div class="grid">
+<div class="card"><h3>WhatsApp</h3><p><a id="wa" href="#">Add your WhatsApp number</a></p></div>
+<div class="card"><h3>Facebook</h3><p><a href="#" id="fb">VYKRAVO MOTO Facebook Page</a></p></div>
+<div class="card"><h3>Business hours</h3><p>Mon–Sat • 8:00 AM – 6:00 PM</p></div>
+</div>
+</section>
+
+
+<div class="ai" id="assistant">
+<div class="aihead">🤖 VYKRAVO AI Parts Assistant</div>
+<div class="aibody" id="aibody">
+<div class="msg bot">Hi! Tell me your motorcycle make, model, year and the part you need. I can guide you on what information to send VYKRAVO MOTO.</div>
+</div>
+<div class="airow"><input id="aiinput" placeholder="e.g. 2015 Yamaha FZ-07 rear disc"><button onclick="askAI()">Send</button></div>
+</div>
+
+<footer><div class="foot"><div>© 2026 VYKRAVO MOTO. All rights reserved.</div><div>Motorcycle Parts • Accessories • Support</div></div></footer>
+<script>
+/* Replace these two values before publishing */
+const WHATSAPP_NUMBER="237XXXXXXXXX";
+const FACEBOOK_URL="https://www.facebook.com/share/1BpF4h8viB/?mibextid=wwXIfr";
+document.getElementById("wa").href="https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent("Hello VYKRAVO MOTO, I am looking for a motorcycle spare part.");
+document.getElementById("fb").href=FACEBOOK_URL;
+
+function askAI(){
+ const input=document.getElementById("aiinput"), body=document.getElementById("aibody");
+ const q=input.value.trim(); if(!q)return;
+ body.innerHTML += '<div class="msg"><strong>You:</strong> '+q.replace(/[<>&]/g,s=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[s]))+'</div>';
+ let l=q.toLowerCase(), reply;
+ if(l.includes("price")||l.includes("cost")) reply="I can help with pricing. Please send the motorcycle make, model, year, the exact part, and your destination for delivery.";
+ else if(l.includes("payment")||l.includes("zelle")||l.includes("cash app")||l.includes("apple")||l.includes("bank")) reply="VYKRAVO MOTO accepts Zelle, Cash App, Apple Pay where supported, and bank transfer. Payment details should be confirmed with the shop before you send money.";
+ else if(l.includes("shipping")||l.includes("delivery")) reply="Please provide your country/city and the motorcycle part. VYKRAVO MOTO can then confirm the delivery arrangement and estimated timing.";
+ else if(l.includes("fit")||l.includes("compatible")) reply="For fitment, send the exact make, model and year, plus the part number or a clear photo if available.";
+ else reply="Thanks. Please send the motorcycle make, model, year, exact part needed, condition preference (new/used), and destination. VYKRAVO MOTO can then confirm availability and next steps.";
+ body.innerHTML += '<div class="msg bot"><strong>VYKRAVO AI:</strong> '+reply+'</div>';
+ body.scrollTop=body.scrollHeight; input.value="";
+}
+document.getElementById("aiinput").addEventListener("keydown",e=>{if(e.key==="Enter")askAI();});
+</script>
+</body></html>
